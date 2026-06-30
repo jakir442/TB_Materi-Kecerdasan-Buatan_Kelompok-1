@@ -1,219 +1,348 @@
+<div align="center">
+
 # 🤖 AI Resume Analyzer
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg">
-  <img src="https://img.shields.io/badge/Machine%20Learning-SVM-green.svg">
-  <img src="https://img.shields.io/badge/NLP-TF--IDF-orange.svg">
-  <img src="https://img.shields.io/badge/Streamlit-Web%20App-red.svg">
-</p>
+### Klasifikasi Kategori Pekerjaan Menggunakan NLP, TF-IDF, dan Machine Learning
 
-<p align="center">
-  <b>AI Resume Analyzer</b> adalah sistem berbasis Machine Learning dan Natural Language Processing (NLP) yang mampu menganalisis isi resume (CV) dan memprediksi kategori pekerjaan yang paling sesuai berdasarkan pengalaman, keterampilan, pendidikan, dan informasi profesional lainnya.
-</p>
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green?style=for-the-badge)
+![NLP](https://img.shields.io/badge/NLP-TF--IDF-orange?style=for-the-badge)
+![SVM](https://img.shields.io/badge/SVM-100%25-red?style=for-the-badge)
+![Naive Bayes](https://img.shields.io/badge/Naive%20Bayes-100%25-yellow?style=for-the-badge)
 
 ---
 
-## 📌 Project Overview
-
-Proses rekrutmen sering kali memerlukan waktu yang cukup lama untuk meninjau dan mengklasifikasikan ribuan resume kandidat.
-
-Proyek ini dikembangkan untuk membantu proses screening awal dengan memanfaatkan teknik **Natural Language Processing (NLP)** dan **Machine Learning**, sehingga sistem dapat memberikan rekomendasi kategori pekerjaan secara otomatis berdasarkan isi resume yang diunggah pengguna.
+### 📚 UAS Kecerdasan Buatan
+### Program Studi Teknik Informatika
 
 ---
 
-## 🎯 Objectives
+</div>
 
-* Melakukan analisis teks resume menggunakan NLP.
-* Mengubah data teks menjadi representasi numerik menggunakan TF-IDF.
-* Mengklasifikasikan resume ke dalam kategori pekerjaan yang sesuai.
-* Menyediakan antarmuka berbasis web menggunakan Streamlit.
-* Membantu proses screening kandidat secara lebih cepat dan efisien.
+# 📌 Tentang Proyek
 
----
+AI Resume Analyzer adalah sistem berbasis **Artificial Intelligence (AI)** yang mampu melakukan analisis dan klasifikasi resume secara otomatis berdasarkan isi dokumen yang diberikan.
 
-## 🧠 Technologies Used
+Sistem memanfaatkan teknik **Natural Language Processing (NLP)** untuk memahami isi resume dan menggunakan algoritma **Machine Learning** untuk menentukan kategori pekerjaan yang paling sesuai.
 
-### Programming Language
+Selain melakukan klasifikasi, sistem juga dapat memberikan:
 
-* Python
+✅ Prediksi kategori pekerjaan
 
-### Machine Learning
+✅ Confidence Score
 
-* Support Vector Machine (SVM)
+✅ Top Matching Roles
 
-### Natural Language Processing
+✅ Persentase kecocokan pekerjaan
 
-* TF-IDF Vectorization
-* Text Preprocessing
-
-### Data Processing
-
-* Pandas
-* NumPy
-
-### Data Visualization
-
-* Matplotlib
-* Seaborn
-
-### Web Application
-
-* Streamlit
+✅ Dashboard interaktif berbasis web
 
 ---
 
-## 📂 Dataset
+# 🎯 Latar Belakang
 
-Dataset yang digunakan merupakan kumpulan resume dari berbagai kategori pekerjaan yang digunakan untuk melatih model klasifikasi.
+Dalam proses rekrutmen, perusahaan sering menerima ratusan hingga ribuan resume untuk setiap lowongan pekerjaan.
 
-### Dataset Source (Kaggle)
+Proses screening secara manual membutuhkan waktu yang lama dan berpotensi menyebabkan kandidat yang berkualitas terlewatkan.
 
-🔗 **Kaggle Dataset:**
+Melalui pemanfaatan AI dan NLP, proses klasifikasi resume dapat dilakukan secara otomatis sehingga membantu proses seleksi menjadi lebih cepat, efisien, dan akurat.
+
+---
+
+# 🧠 Tujuan Penelitian
+
+- Mengembangkan sistem klasifikasi resume otomatis.
+- Mengimplementasikan NLP untuk analisis dokumen resume.
+- Membandingkan performa algoritma SVM dan Naive Bayes.
+- Menentukan kategori pekerjaan yang sesuai berdasarkan isi resume.
+- Membantu proses screening kandidat secara otomatis.
+
+---
+
+# 👨‍💻 Tim Pengembang
+
+| Nama | NIM |
+|--------|--------|
+| Jakir Apriyan | 2406004 |
+| Naila Azzahra | 2406013 |
+
+---
+
+# 📂 Dataset
+
+Dataset yang digunakan berasal dari Kaggle.
+
+### 🔗 Link Dataset
 
 https://www.kaggle.com/datasets/trendcart/resume-dataset?resource=download
 
+### Informasi Dataset
+
+| Keterangan | Nilai |
+|------------|------------|
+| Jumlah Resume | 10.000 |
+| Jumlah Kategori | 42 |
+| Format Data | csv |
+| Target | Kategori Pekerjaan |
+
 ---
 
-## 🔄 Project Workflow
+# 🔄 Alur Pengerjaan Proyek
 
 ```text
 Resume Dataset
-       │
-       ▼
-Data Cleaning
-       │
-       ▼
-Feature Engineering
-       │
-       ▼
+      │
+      ▼
+Data Understanding
+      │
+      ▼
+Exploratory Data Analysis (EDA)
+      │
+      ▼
 Text Preprocessing
-       │
-       ▼
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
 TF-IDF Vectorization
-       │
-       ▼
-Support Vector Machine (SVM)
-       │
-       ▼
-Model Evaluation
-       │
-       ▼
-Streamlit Web Application
+      │
+      ▼
+Train-Test Split
+      │
+      ▼
+Model Training
+ (SVM & Naive Bayes)
+      │
+      ▼
+Evaluation
+      │
+      ▼
+Deployment Streamlit
 ```
 
-## ⚙️ Feature Engineering
+---
 
-Beberapa fitur tambahan yang dibangun pada tahap Feature Engineering:
+# 🔍 Tahapan Penelitian
 
-| Feature            | Description                               |
-| ------------------ | ----------------------------------------- |
-| skill_count        | Jumlah skill yang dimiliki kandidat       |
-| word_count         | Jumlah kata dalam resume                  |
-| char_count         | Jumlah karakter dalam resume              |
-| is_experienced     | Status kandidat berpengalaman atau tidak  |
-| skill_density      | Kepadatan skill dalam resume              |
-| education_level    | Penyederhanaan tingkat pendidikan         |
-| job_category_group | Pengelompokan kategori pekerjaan          |
-| combined_text      | Gabungan seluruh informasi teks untuk NLP |
+## 1️⃣ Business Understanding
+
+Tahap awal dilakukan dengan mengidentifikasi permasalahan pada proses screening resume yang masih dilakukan secara manual.
+
+Masalah utama:
+
+- Proses seleksi memakan waktu lama.
+- Jumlah resume sangat banyak.
+- Sulit menentukan kategori pekerjaan yang sesuai.
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## 2️⃣ Data Understanding
 
-Analisis data dilakukan untuk memahami karakteristik dataset, meliputi:
+Tahap memahami karakteristik dataset.
 
-* Distribusi kategori pekerjaan
-* Top kategori resume
-* Distribusi panjang resume
-* Distribusi pengalaman kerja
-* Top kata yang paling sering muncul
-* Analisis kualitas data
+Aktivitas yang dilakukan:
 
----
-
-## 🤖 Machine Learning Model
-
-### Model Used
-
-Support Vector Machine (SVM)
-
-### Text Representation
-
-TF-IDF Vectorizer
-
-### Evaluation Metrics
-
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
-* Classification Report
+- Mengecek jumlah data.
+- Mengecek jumlah kategori.
+- Analisis struktur dataset.
+- Analisis distribusi kategori.
 
 ---
 
-## 📈 Model Performance
+## 3️⃣ Exploratory Data Analysis (EDA)
 
-Contoh hasil evaluasi model:
+EDA dilakukan untuk memperoleh insight terhadap data.
 
-| Metric    | Score |
-| --------- | ----- |
-| Accuracy  | 100%  |
-| Precision | 100%  |
-| Recall    | 100%  |
-| F1-Score  | 100%  |
-| ROC-AUC   | 100%  |
+Analisis yang dilakukan:
 
-> Nilai di atas dapat berubah sesuai hasil pelatihan model terbaru.
+- Distribusi kategori pekerjaan.
+- Distribusi panjang resume.
+- Resume terpendek dan terpanjang.
+- Analisis frekuensi kata.
+- Visualisasi data.
 
 ---
 
-## 🖥️ Application Features
+## 4️⃣ Data Preparation
 
-### Resume Upload
+### Text Cleaning
 
-* Upload file PDF atau DOCX
+Proses pembersihan data:
 
-### Resume Analysis
+- Lowercase
+- Remove URL
+- Remove Number
+- Remove Punctuation
+- Remove Extra Spaces
 
-* Ekstraksi teks otomatis
-* Analisis resume menggunakan NLP
+### Feature Engineering
 
-### Job Prediction
+Fitur tambahan yang dibuat:
 
-* Prediksi kategori pekerjaan yang paling sesuai
+- Resume Length
+- Word Count
+- Character Count
 
-### Confidence Score
+### Feature Extraction
 
-* Menampilkan tingkat keyakinan model terhadap hasil prediksi
+Menggunakan:
 
-### Top Matching Roles
+**TF-IDF Vectorizer**
 
-* Menampilkan beberapa kategori pekerjaan dengan skor kecocokan tertinggi
+untuk mengubah teks menjadi representasi numerik.
+
+### Label Encoding
+
+Mengubah label kategori menjadi bentuk numerik menggunakan Label Encoder.
 
 ---
 
-## 🚀 Installation
+## 5️⃣ Modeling
+
+Dua algoritma yang digunakan:
+
+### Support Vector Machine (SVM)
+
+Kelebihan:
+
+- Cocok untuk data teks.
+- Akurasi tinggi.
+- Generalisasi baik.
+
+### Naive Bayes
+
+Kelebihan:
+
+- Cepat.
+- Ringan.
+- Efektif untuk klasifikasi teks.
+
+---
+
+## 6️⃣ Evaluation
+
+Evaluasi dilakukan menggunakan:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+---
+
+# 📊 Hasil Penelitian
+
+## Performa Model
+
+| Algoritma | Accuracy | Precision | Recall | F1-Score |
+|------------|------------|------------|------------|------------|
+| SVM | 100% | 100% | 100% | 100% |
+| Naive Bayes | 100% | 100% | 100% | 100% |
+
+---
+
+## Kesimpulan Evaluasi
+
+- Kedua algoritma berhasil mengklasifikasikan seluruh data testing dengan benar.
+- Error Rate yang diperoleh sebesar **0%**.
+- TF-IDF mampu merepresentasikan informasi penting dalam resume dengan sangat baik.
+- Model berhasil mempelajari pola antar kategori pekerjaan secara optimal.
+
+---
+
+# 🌐 Implementasi Web
+
+Aplikasi dikembangkan menggunakan **Streamlit**.
+
+### Fitur Utama
+
+📄 Upload Resume PDF
+
+📊 Resume Analysis
+
+🎯 Job Category Prediction
+
+📈 Confidence Score
+
+🏆 Top Matching Roles
+
+⚡ Fast Prediction
+
+---
+
+# 🛠️ Teknologi yang Digunakan
+
+## Bahasa Pemrograman
+
+- Python
+
+## Library
+
+- Pandas
+- NumPy
+- Scikit-Learn
+- NLTK
+- Matplotlib
+- Seaborn
+- Joblib
+- Streamlit
+
+---
+
+# 📁 Struktur Repository
+
+```bash
+AI-Resume-Analyzer/
+│
+├── README.md
+├── Laporan_uas.md
+├── AI_Resume_Analyzer.ipynb
+├── requirements.txt
+│
+├── dataset/
+│   └── Resume.csv
+│
+├── models/
+│   ├── svm_model.pkl
+│   ├── nb_model.pkl
+│   ├── tfidf.pkl
+│   └── label_encoder.pkl
+│
+├── app/
+│   └── streamlit_app.py
+│
+└── assets/
+    ├── dashboard.png
+    ├── eda.png
+    ├── confusion_matrix.png
+    └── architecture.png
+```
+
+---
+
+# 🚀 Cara Menjalankan
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/AI-Resume-Analyzer.git
+git clone https://github.com/username/AI-Resume-Analyzer.git
 ```
 
-### Masuk ke Folder Project
+### Masuk Folder Project
 
 ```bash
 cd AI-Resume-Analyzer
 ```
 
-### Install Dependencies
+### Install Dependency
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Streamlit
+### Jalankan Streamlit
 
 ```bash
 streamlit run app.py
@@ -221,63 +350,38 @@ streamlit run app.py
 
 ---
 
-## 📸 Application Preview
+# 📸 Screenshot
 
-Tambahkan screenshot aplikasi di sini.
+## Dashboard
 
-```text
-assets/
-├── home.png
-├── prediction.png
-├── dashboard.png
-```
+> Tambahkan screenshot dashboard Streamlit di sini
 
----
+## EDA
 
-## 📁 Project Structure
+> Tambahkan visualisasi EDA di sini
 
-```text
-AI-Resume-Analyzer/
-│
-├── Dataset/
-├── Model/
-├── Notebook/
-├── Streamlit_App/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-└── assets/
-```
+## Hasil Prediksi
+
+> Tambahkan screenshot hasil prediksi di sini
 
 ---
 
-## 👨‍💻 Team Members
+# 📚 Referensi
 
-| Name                  |     NIM    |
-| --------------------- | ---------- |
-| Jakir Apriyan         | 2406004    |
-| Rizky Taufik Hidayat  | 2406014    |
-| Sandi Febriansah      | 2406001    |
-| Maulana Muhammad Zaki | 2406028    |
+1. Resume Dataset Kaggle
+2. Scikit-Learn Documentation
+3. Streamlit Documentation
+4. Baral (2026) - AI Resume Analyzer
+5. Santoso & Widodo (2026) - Multi-Layer Pattern Recognition
+6. Pujiastuti dkk. (2025) - Pemanfaatan AI dalam Pengolahan Teks
 
 ---
 
-## 🏫 Institution
+<div align="center">
 
-Institut Teknologi Garut
+### ⭐ AI Resume Analyzer ⭐
 
+Proyek UAS Mata Kuliah Kecerdasan Buatan  
 Program Studi Teknik Informatika
 
----
-
-## 📄 License
-
-This project is developed for educational and academic purposes.
-
----
-
-<p align="center">
-Made with ❤️ using Python, NLP, TF-IDF, SVM, and Streamlit
-</p>
+</div>
