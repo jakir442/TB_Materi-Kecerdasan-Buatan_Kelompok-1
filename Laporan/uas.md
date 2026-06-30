@@ -8,7 +8,7 @@
 | Nama | NIM |
 |--------|--------|
 | Jakir Apriyan | 2406004 |
-| Nama Anggota 2 | XXXXXXX |
+| Naila Azzahra | 2406013 |
 
 ---
 
@@ -122,8 +122,7 @@ Pembaruan yang ditawarkan pada penelitian ini adalah:
 Dataset yang digunakan berasal dari Kaggle:
 
 **Link Dataset:**
-
-https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
+https://www.kaggle.com/datasets/trendcart/resume-dataset?resource=download
 
 ### Informasi Dataset
 
