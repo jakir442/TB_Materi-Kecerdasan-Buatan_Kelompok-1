@@ -106,7 +106,7 @@ M.Swathi Reddy, Ahmadi, dkk. (2026) mengembangkan Smart AI Resume Analyzer berba
 | Santoso & Widodo (2026) | Multi-Layer Pattern Recognition | Fokus pada deteksi teks AI, bukan klasifikasi resume |
 | Pujiastuti dkk. (2025) | Analisis penggunaan AI | Tidak membahas klasifikasi resume |
 | Naga Sandeepa Boora dkk (2021) | NLP, TF-IDF, Cosine Similarity, Machine Learning | Berfokus pada resume matching dan pemeringkatan kandidat, belum membandingkan performa algoritma klasifikasi seperti Support Vector Machine (SVM) dan Naive Bayes.|
-| M.Swathi Reddy, Ahmadi, dkk. | AI, NLP, TF-IDF, Consine Similarity | Berfokus pada pencocokan dan pemeringkatan resume, belum melakukan perbandingan algoritma klasifikasi seperti Support Vector Machine (SVM) dan Naive Bayes untuk klasifikasi kategori pekerjaan.|
+| M.Swathi Reddy, Ahmadi, dkk. (2026) | AI, NLP, TF-IDF, Consine Similarity | Berfokus pada pencocokan dan pemeringkatan resume, belum melakukan perbandingan algoritma klasifikasi seperti Support Vector Machine (SVM) dan Naive Bayes untuk klasifikasi kategori pekerjaan.|
 
 Berdasarkan penelitian terdahulu, belum ditemukan penelitian yang secara spesifik membandingkan algoritma Support Vector Machine (SVM) dan Naive Bayes pada dataset Resume Dataset untuk klasifikasi kategori pekerjaan.
 
