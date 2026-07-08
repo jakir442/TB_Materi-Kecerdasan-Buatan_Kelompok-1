@@ -88,6 +88,14 @@ Santoso dan Widodo (2026) mengembangkan sistem deteksi teks berbasis Artificial 
 
 Pujiastuti dkk. (2025) menjelaskan bahwa teknologi AI memiliki kemampuan dalam memahami, menganalisis, dan memproses dokumen teks secara otomatis sehingga dapat meningkatkan efisiensi pekerjaan yang sebelumnya dilakukan secara manual.
 
+### Penelitian 4
+
+Naga Sandeepa Boora & P.Niranjan (2021). Boorana & Niranjan mengembangkan sistem AI Resume Analyzer berbasis Natural Language Processing (NLP) dan machine learning untuk mengotomatisasi proses seleksi resume. Sistem mampu mengekstraksi informasi penting dari resume seperti keterampilan, pendidikan, pengalaman, dan sertifikasi, kemudian mencocokkannya dengan deskripsi pekerjaan menggunakan TF-IDF dan Cosine Similarity. Hasil penelitian menunjukkan bahwa sistem dapat meningkatkan efisiensi proses rekrutmen, mengurangi bias, serta menghasilkan rekomendasi kandidat yang lebih akurat.
+
+### Penelitian 5
+
+M.Swathi Reddy, Ahmadi, dkk. (2026) mengembangkan Smart AI Resume Analyzer berbasis Artificial Intelligence (AI), Natural Language Processing (NLP), dan Machine Learning untuk mengotomatisasi proses penyaringan resume. Sistem menggunakan TF-IDF, Cosine Similarity, dan teknik NLP untuk mengekstraksi informasi penting dari resume, mencocokkannya dengan deskripsi pekerjaan, memberikan peringkat kandidat, serta memberikan saran perbaikan resume. Hasil penelitian menunjukkan sistem mampu mencapai akurasi parsing teks sekitar 85% dan akurasi pemeringkatan kandidat sekitar 92%, sehingga meningkatkan efisiensi, kecepatan, dan akurasi proses rekrutmen.
+
 ---
 
 ## 2.2 Research Gap
@@ -97,6 +105,8 @@ Pujiastuti dkk. (2025) menjelaskan bahwa teknologi AI memiliki kemampuan dalam m
 | Baral (2026) | LLM + Semantic Matching | Fokus pada evaluasi resume menggunakan LLM dan belum membandingkan algoritma klasifikasi tradisional |
 | Santoso & Widodo (2026) | Multi-Layer Pattern Recognition | Fokus pada deteksi teks AI, bukan klasifikasi resume |
 | Pujiastuti dkk. (2025) | Analisis penggunaan AI | Tidak membahas klasifikasi resume |
+| Naga Sandeepa Boora dkk (2021) | NLP, TF-IDF, Cosine Similarity, Machine Learning | Berfokus pada resume matching dan pemeringkatan kandidat, belum membandingkan performa algoritma klasifikasi seperti Support Vector Machine (SVM) dan Naive Bayes.|
+| M.Swathi Reddy, Ahmadi, dkk. | AI, NLP, TF-IDF, Consine Similarity | Berfokus pada pencocokan dan pemeringkatan resume, belum melakukan perbandingan algoritma klasifikasi seperti Support Vector Machine (SVM) dan Naive Bayes untuk klasifikasi kategori pekerjaan.|
 
 Berdasarkan penelitian terdahulu, belum ditemukan penelitian yang secara spesifik membandingkan algoritma Support Vector Machine (SVM) dan Naive Bayes pada dataset Resume Dataset untuk klasifikasi kategori pekerjaan.
 
