@@ -10,6 +10,11 @@
 ![SVM](https://img.shields.io/badge/SVM-100%25-red?style=for-the-badge)
 ![Naive Bayes](https://img.shields.io/badge/Naive%20Bayes-100%25-yellow?style=for-the-badge)
 
+## 🎥 Video Demo
+
+**▶️ Tonton Demo AI Resume Analyzer di YouTube**
+https://youtu.be/QFQ7avq9by4
+
 ---
 
 ### 📚 UAS Kecerdasan Buatan
