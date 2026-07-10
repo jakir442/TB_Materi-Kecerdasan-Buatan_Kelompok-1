@@ -13,6 +13,7 @@
 ## 🎥 Video Demo
 
 **▶️ Tonton Demo AI Resume Analyzer di YouTube**
+
 https://youtu.be/QFQ7avq9by4
 
 ---
