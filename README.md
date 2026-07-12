@@ -18,7 +18,7 @@ https://youtu.be/QFQ7avq9by4
 
 ---
 
-### 📚 UAS Kecerdasan Buatan
+### 📚 UAS Kecerdasan Buatan - Kelompok 1
 ### Program Studi Teknik Informatika
 
 ---
@@ -302,28 +302,36 @@ Aplikasi dikembangkan menggunakan **Streamlit**.
 ```bash
 AI-Resume-Analyzer/
 │
+├── App/
+│   └── app.py
+├── Data/
+│   └── dataset/
+│         └── job_roles.csv
+│         └── Jon-Role-Prediction-Dataset.zip
+│         └── skills_database.json
+│         └── skills_list.csv
+│         └── test_resume.json
+│         └── training_data.csv
+│   └── jurnal/
+│         └── 2021 - Naga Sandeepa Boora & P. Niranjan.pdf
+│         └── 2025 - Indah Pujiastuti dkk.pdf
+│         └── 2026 - Kartika Imam S, Edi Widodo, Theresia Widji Astuti.pdf
+│         └── 2026 - M. Ritesh Baral.pdf
+│         └── 2026 - M Swathi R, Ahmadi, dll.pdf
+├── Example/
+│   └── cv-jakir.pdf
+│   └── cv-zaraa.pdf
+├── HasilModel/
+│   └── resume_model.pkl
+│   └── role_category_map.pkl
+│   └── role_encoder.pkl
+│   └── tfidf_vectorizer.pkl
+├── Laporan/
+│   └── uas.md
+├── Model/
+│   └── AI-Resume-Analyzer.ipynb
 ├── README.md
-├── Laporan_uas.md
-├── AI_Resume_Analyzer.ipynb
-├── requirements.txt
-│
-├── dataset/
-│   └── Resume.csv
-│
-├── models/
-│   ├── svm_model.pkl
-│   ├── nb_model.pkl
-│   ├── tfidf.pkl
-│   └── label_encoder.pkl
-│
-├── app/
-│   └── streamlit_app.py
-│
-└── assets/
-    ├── dashboard.png
-    ├── eda.png
-    ├── confusion_matrix.png
-    └── architecture.png
+
 ```
 
 ---
@@ -333,44 +341,20 @@ AI-Resume-Analyzer/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/username/AI-Resume-Analyzer.git
+git clone https://github.com/jakir442/TB_Materi-Kecerdasan-Buatan_Kelompok-1.git
 ```
 
 ### Masuk Folder Project
 
 ```bash
-cd AI-Resume-Analyzer
-```
-
-### Install Dependency
-
-```bash
-pip install -r requirements.txt
+cd TB_Materi-Kecerdasan-Buatan_Kelompok-1
 ```
 
 ### Jalankan Streamlit
 
 ```bash
-streamlit run app.py
+cd App -> streamlit run app.py
 ```
-
----
-
-# 📸 Screenshot
-
-## Dashboard
-
-> Tambahkan screenshot dashboard Streamlit di sini
-
-## EDA
-
-> Tambahkan visualisasi EDA di sini
-
-## Hasil Prediksi
-
-> Tambahkan screenshot hasil prediksi di sini
-
----
 
 # 📚 Referensi
 
